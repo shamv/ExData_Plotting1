@@ -21,5 +21,5 @@ legend("topright",col=c("Black","Red","Blue"),cex=0.5,lty=1,lwd=2,legend=c("Sub_
 
 
 ##Saving to file
-dev.copy(png, file="plot3.png", height=504, width=504)
+dev.copy(png, file="plot3.png", height=480, width=480)
 dev.off()

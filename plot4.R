@@ -33,5 +33,5 @@ plot(mydata$Global_reactive_power~mydata$Datetime,type="l",ylab ="Global Reactiv
 
 
 ##Saving to file
-dev.copy(png, file="plot4.png", height=504, width=504)
+dev.copy(png, file="plot4.png", height=480, width=480)
 dev.off()

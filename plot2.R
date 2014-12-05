@@ -15,5 +15,5 @@ mydata$Datetime <- as.POSIXct(datetime)
 plot(mydata$Global_active_power~mydata$Datetime,type="l",ylab ="Global Active Power (kilowatts)",xlab="")
 
 ##Saving to file
-dev.copy(png, file="plot2.png", height=504, width=504)
+dev.copy(png, file="plot2.png", height=480, width=480)
 dev.off()
